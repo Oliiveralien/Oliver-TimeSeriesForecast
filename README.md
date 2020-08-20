@@ -20,11 +20,7 @@ $ bash All_test.sh
 ```
 One can also customize own settings in shell script. Parameters are listed in `./args_file.py`.
 ## Results
-LSTNet for Traffic data:
-
 ![LST_traffic](https://github.com/Oliiveralien/Oliver-TimeSeriesForecast/blob/master/evaluation_pics/traffic/LSTNet.jpg)
-
-MHA_Net for Traffic data:
 
 ![MHA_traffic](https://github.com/Oliiveralien/Oliver-TimeSeriesForecast/blob/master/evaluation_pics/traffic/MHA_Net.jpg)
 
