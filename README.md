@@ -6,6 +6,7 @@ This repo contains four comparative experiments for Multivariate time series for
 
 ## Datasets
 Four datasets can be downloaded [here](https://github.com/laiguokun/multivariate-time-series-data).
+Unzip the dataset in `./data/`.
 
 ## Models
 I've conducted test on four different models: CNN, RNN, [MHA_Net](https://arxiv.org/abs/1706.03762), [LSTNet](https://arxiv.org/abs/1703.07015), which can be found in `./models/`.
