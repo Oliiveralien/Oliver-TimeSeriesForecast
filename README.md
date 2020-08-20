@@ -11,6 +11,8 @@ Unzip the dataset in `./data/`.
 ## Models
 I've conducted test on four different models: CNN, RNN, [MHA_Net](https://arxiv.org/abs/1706.03762), [LSTNet](https://arxiv.org/abs/1703.07015), which can be found in `./models/`.
 
+* I visualized these models through `Tensorwatch`, as shown in `./model_pics/`
+
 ## Demo
 ```
 # in {path_to_this_repo}/,
@@ -18,9 +20,16 @@ $ bash All_test.sh
 ```
 One can also customize own settings in shell script. Parameters are listed in `./args_file.py`.
 ## Results
+LSTNet for Traffic data:
 
-16 Pretrained models (4 models * 4 datasets) are available in `./save_models`. 
+![LST_traffic](https://github.com/Oliiveralien/Oliver-TimeSeriesForecast/blob/master/evaluation_pics/traffic/LSTNet.jpg)
 
-More experimental details can be found in `./logs`, `./csv_files` and `evalution_pics`.
+MHA_Net for Traffic data:
+
+![MHA_traffic](https://github.com/Oliiveralien/Oliver-TimeSeriesForecast/blob/master/evaluation_pics/traffic/MHA_Net.jpg)
+
+* 16 Pretrained models (4 models * 4 datasets) are available in `./save_models`. 
+
+* More experimental details can be found in `./logs`, `./csv_files` and `evalution_pics`.
 ## Contact
 Please contact me if there is any question. (Chao Wang oliversavealien@gmail.com)
