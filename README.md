@@ -26,6 +26,6 @@ One can also customize own settings in shell script. Parameters are listed in `.
 
 * 16 Pretrained models (4 models * 4 datasets) are available in `./save_models`. 
 
-* More experimental details can be found in `./logs`, `./csv_files` and `evalution_pics`.
+* More experimental details can be found in `./logs`, `./csv_files` and `./evalution_pics`.
 ## Contact
 Please contact me if there is any question. (Chao Wang oliversavealien@gmail.com)
